@@ -38,7 +38,7 @@ gulp.task('browserSync', () => {
 gulp.task('twig', () => {
   return gulp
     .src([
-      pkg.paths.src.templates + '**/*/index.html',
+      pkg.paths.src.templates + '**/*/*.html',
       pkg.paths.src.templates + 'index.html'
     ])
     .pipe(plumber({ errorHandler: onError }))

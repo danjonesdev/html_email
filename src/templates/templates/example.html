@@ -1,0 +1,66 @@
+{% extends '../utils/index.html' %}
+{% extends '../_layouts/master.html' %}
+
+{% block utils %}
+{% block content %}
+
+<!-- PARTIAL : BEGIN -->
+<tr>
+  <td>
+    <table {{table}}>
+      <tr>
+        <td {{vTop}} width="600">
+          <img src="{{img}}/hero.png" alt="hero">
+        </td>
+        {{p2}}
+      </tr>
+    </table>
+  </td>
+</tr>
+<!-- PARTIAL : END -->
+
+<!-- PARTIAL : BEGIN -->
+<tr>
+  <td>
+    <table {{table}}>
+      <tr>
+        <td {{vTop}} width="30">
+        </td>
+        <td {{vTop}} width="540" style="{{tac}} {{f1}} {{fontPrimary}} {{bold}}">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </td>
+        <td {{vTop}} width="30">
+        </td>
+      </tr>
+      {{p2}}
+    </table>
+  </td>
+</tr>
+<!-- PARTIAL : END -->
+
+<!-- PARTIAL : BEGIN -->
+<tr>
+  <td>
+    <table {{table}}>
+      <tr>
+        <td {{vTop}} width="30">
+        </td>
+        <td {{vTop}} width="540" style="{{tac}} {{f3}} {{fontSecondary}}">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+          laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+          non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </td>
+        <td {{vTop}} width="30">
+        </td>
+      </tr>
+      {{p2}}
+    </table>
+  </td>
+</tr>
+<!-- PARTIAL : END -->
+
+
+{% endblock %}
+{% endblock %}

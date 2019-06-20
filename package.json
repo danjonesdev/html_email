@@ -23,6 +23,7 @@
     }
   },
   "dependencies": {
+    "natives": "^1.1.6",
     "superagent": "^3.8.3",
     "webfontloader": "^1.6.28"
   },
@@ -70,6 +71,7 @@
   },
   "scripts": {
     "build": "cross-env NODE_ENV=production gulp build --production",
+    "watch": "gulp watch",
     "test": "mocha --require babel-core/register 'test/**/*.test.js' || true"
   },
   "browserslist": {
